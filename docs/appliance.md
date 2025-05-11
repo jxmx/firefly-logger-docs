@@ -9,7 +9,7 @@
 1. If you do not already have it installed, install the
 [Raspberry Pi Imager](https://www.raspberrypi.com/software/).
 
-2. Download the latest image from https://github.com/jxmx/firefly-logger/releases/latest and save it to the
+2. Download the latest image from [the Firefly FDL GitHub Release Page](https://github.com/jxmx/firefly-logger/releases/latest) and save it to the
 `Downloads` directory.
 
 3. Launch **Raspberry Pi Imager** from the start menu.
