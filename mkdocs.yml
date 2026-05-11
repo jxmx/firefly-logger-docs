@@ -12,7 +12,7 @@ markdown_extensions:
   - md_in_html
   - pymdownx.details
   - pymdownx.superfences
-copyright: This work © 2024-2025 by Jason McCormick N8EI is licensed under CC BY-NC-SA 4.0.
+copyright: This work © 2024-2026 by Jason McCormick N8EI is licensed under CC BY-NC-SA 4.0.
 theme:
   name: material
   features:
@@ -28,7 +28,7 @@ theme:
     - search.suggest
     - toc.follow
     - toc.integrate
-  logo: img/firefly.svg
+  logo: img/Firefly_Logo_150_100.webp
   favicon: img/favicon.ico
   palette:
     scheme: allstarlink
@@ -54,7 +54,7 @@ nav:
     - "Configuration": configs.md
     - "Helper Scripts" : helpers.md
     - "WSJT to FFDL" : wsjt2ffdl.md
-  - "User Guide": 
+  - "User Guide":
     - "Basics" : basic.md
     - "Screens" : screens.md
     - "Setup WSJT-X" : wsjtx.md
