@@ -1,6 +1,6 @@
 # Important Security Notes
 
-## Not Recommended for Internet-Facing User
+## Not Recommended for Internet-Facing Use
 
 Please note that Firefly Field Day Logger does **NOT** have the
 required web application security to run over the public

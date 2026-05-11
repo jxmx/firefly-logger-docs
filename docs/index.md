@@ -28,4 +28,4 @@ browser can be installed, Firefly Logger will work for you.
 - Cabrillo export for score reporting
 - WSJT integration (with [companion wjst2ffdl](https://github.com/jxmx/wsjt2ffdl/) package)
 
-[Project Home Page](https://packetwarriors/firefly-logger) | [GitHub](https://github.com/jxmx/firefly-logger)
+[GitHub](https://github.com/jxmx/firefly-logger)
