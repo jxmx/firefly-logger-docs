@@ -35,7 +35,7 @@ apt install firefly-logger
 
 3. That's it! The logger should be available on the system at `/firefly-logger`. For
 example if on the local Pi named "firefly" it would be http://firefly.local/firefly-logger
-(assuming Avahi is running). Otherwise you may need to use the IP address.
+(assuming Avahi is running). Otherwise you may need to use the IP address.git
 
 4. (Optional) To create a "turnkey" system where Firefly Logger is the only
 web application and to force Apache to redirect to it, execute:

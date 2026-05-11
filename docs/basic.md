@@ -5,7 +5,7 @@ system. It supports many concurrent users with a minimal footprint.
 For each operator, the basic use pattern should be followed:
 
 1. Open a web browser and point it to the hostname or IP address
-of your server. Using the Pi appliance, this is `https//fieldday.local` 
+of your server. Using the Pi appliance, this is `https//firefly.local`
 or the name of the device as chosen during installation.
 
 2. Set the station information at the top of the screen. The **callsign**
@@ -21,6 +21,7 @@ All connected logger clients (web browser) will poll the server
 for updated contact information and to check for duplicates. For example,
 a successful contact will look like this:
 ![Success Contact](img/main-good-q.png)
+![Success Contact](img/main-good-q-2.png)
 
 ## Duplicate Entry
 However, if the station has already been worked, the entry
@@ -39,7 +40,7 @@ appropriate ARRL Field Day or Winter Field Day class information.
 The section field is controlled by a typeahead convenience
 feature that will both display and allow for a quick-tab once
 enough characters have been types to match the section. This
-also provides convenience to the operator to not have to be 
+also provides convenience to the operator to not have to be
 consulting a sheet while operating.
 ![Typeahead](img/main-section-typeahead.png)
 
@@ -50,7 +51,7 @@ to be done entirely from the keyboard. The page layout and nav
 items for logging are fixed so that the operator may enter
 the callsign, class, and section while tabbing between them
 and pressting Enter to store the QSO. Then the input
-will return to the Callsign box for the next Q. The pattern of 
+will return to the Callsign box for the next Q. The pattern of
 good logging would be:
 
 **Enter Callsign** `TAB` **Enter Class** `TAB` **Enter Section** `ENTER`

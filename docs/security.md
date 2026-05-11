@@ -1,6 +1,6 @@
 # Important Security Notes
 
-## Do Not Run on the Internet
+## Not Recommended for Internet-Facing User
 
 Please note that Firefly Field Day Logger does **NOT** have the
 required web application security to run over the public
@@ -9,10 +9,8 @@ at a Field Day operation over a local LAN/WiFi connection with a group of
 well-behaved, well-meaning operators. It does not contain any authentication
 security, serious input sanitization, or significant anti-XSS protections.
 
-If you feel like you MUST implement this over the Internet, the best I can
-suggest is that the server implements HTTP Basic Authentication at the
-server-level. However **DO NOT** plan to actually do this - it is not
-recommended.
+If you feel like you MUST implement this over the Internet, you can
+implement HTTP Basic Auth at the webserver level.
 
 ## HTTPS / TLS Considerations
 
