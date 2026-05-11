@@ -58,7 +58,7 @@ Write this username and password down if you need to. It will
 be needed to install the software. Use all lower-case letters
 for the username.
 
-    ![Step 7](img/step-7png){width="600"}
+    ![Step 7](img/step-7.png){width="600"}
 
 8. Configure your WiFi network by entering your network name
 in the "SSID" field and then the password. Click **NEXT**
