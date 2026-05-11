@@ -24,7 +24,7 @@ with stock Chromium on Linux with non-TLS-protected cookies. Here's how to enabl
 https:// connections for this application.
 
 Test the TLS configuration by visiting the server on https://. For example
-if the hostname is logger.fd.local, browse to https://logger.fd.local. A
+if the hostname is firefly.local, browse to https://firefly.local. A
 warning about a certificate error will appear because the configuration
 is using the default "fake" certificate. This is OKAY for non-Internet-connected
 purposes. Accept the error and select the browser's equivalent of "trust this site"

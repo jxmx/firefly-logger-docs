@@ -1,10 +1,10 @@
 # Firefly Logger
 
-Firefly Field Day Logger is a web application for use 
-at [ARRL Field Day](http://www.arrl.org/field-day) operating events. 
+Firefly Field Day Logger is a web application for use
+at [ARRL Field Day](http://www.arrl.org/field-day) operating events.
 It can also be used for [WFDA Winter Field Day](https://winterfieldday.org/).
 
-The design of this logger is to be a simple, effective logger that 
+The design of this logger is to be a simple, effective logger that
 can be used on any device that can have a reasonably modern browser
 installed on it. This includes older laptops running Linux + Chromium,
 tablets with Chrome or Firefox, Raspberry Pi 3, 4, or 5 with Raspian, etc.
@@ -23,6 +23,7 @@ browser can be installed, Firefly Logger will work for you.
 - Ability to hand-key paper logs as needed
 - Does not require the Internet; Operate over a disconnected local network or WiFi
 - Display page for showing on a screen at Field Days to show score and points
+- Display map for showing on a screen at Field Days to show section contacts
 - ADIF export for Logbook of the World (LoTW) or other logging programs
 - Cabrillo export for score reporting
 - WSJT integration (with [companion wjst2ffdl](https://github.com/jxmx/wsjt2ffdl/) package)

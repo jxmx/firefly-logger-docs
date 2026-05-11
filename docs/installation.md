@@ -6,24 +6,24 @@
 
 Firefly Logger has three supported installation types:
 
-* [Raspberry Pi Image](appliance.md) - This is a complete image of Debian 12 for a Pi including a pre-configured 
-and ready-out-of-the-box appliance for any Field Day operation. This method is recommended
+* [Raspberry Pi Image](appliance.md) - This is a complete "turnkey" appliance
+based on Debian 13 for a Pi including. This method is recommended
 for most users of Firefly Logger. See [Appliance Installation](appliance.md).
 
 * Debian Packages - Add Firefly Logger to an existing Debian-based Linux installation. Supported
-versions are Debian 12 Bookworm (including Raspberry Pi OS 12).
+versions are Debian 13 Trixie (including Raspberry Pi OS 13).
 
 * Manual Installation - Should work on any "LAMP Stack" operating system. Probably works fine
 on the BSDs and even Windows although it is not tested there.
 
 ## Debian Installation
-Installation is supported on Debian 12 Bookworm through use of apt/deb
+Installation is supported on Debian 13 Trixie through use of apt/deb
 and the PacketWarriors software repository. Installation on a
 supported Debian release is as follows:
 
 1. Install the PacketWarriors software repository:
 ```
-wget -O/tmp/packetwarriors-repo.deb https://repo.packetwarriors.com/packetwarriors-repo.deb
+wget -O/tmp/packetwarriors-repo.deb https://repo.packetwarriors.com/packetwarriors-repo_1.1-1.deb13_all.deb
 dpkg -i /tmp/packetwarriors-repo.deb
 apt update
 ```
@@ -34,7 +34,8 @@ apt install firefly-logger
 ```
 
 3. That's it! The logger should be available on the system at `/firefly-logger`. For
-example if on the local Pi it would be http://localhost/firefly-logger.
+example if on the local Pi named "firefly" it would be http://firefly.local/firefly-logger
+(assuming Avahi is running). Otherwise you may need to use the IP address.
 
 4. (Optional) To create a "turnkey" system where Firefly Logger is the only
 web application and to force Apache to redirect to it, execute:
